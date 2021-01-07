@@ -2260,7 +2260,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style2 {
-			background-color: rgba(31, 11, 58, 1.7);
+			background-color: #212029;
 			background-image: url("images/light-bl.svg"), url("images/light-br.svg");
 			background-position: bottom left, bottom right;
 			background-repeat: no-repeat, no-repeat;
@@ -2640,7 +2640,7 @@ input, select, textarea {
 		background-position: top left, top right, bottom left, bottom right;
 		background-repeat: no-repeat;
 		background-size: 25em;
-		padding: 7em 0;
+		padding: 7em 0 0;
 	}
 
 		#main > :last-child {
@@ -3401,8 +3401,14 @@ input, select, textarea {
           font-size: 16px !important;
       }
 
-		@media screen and (max-width: 500px) {
-.image.featured.aboutme img {
+		@media screen and (max-width: 840px) {
+.image.featured.aboutme1 img {
+    height: 325px;
+    width: auto;
+    align-items: center;
+    margin: 0 auto;
+}
+.image.featured.aboutme2 img {
     height: 325px;
     width: auto;
     align-items: center;
@@ -3415,4 +3421,12 @@ input, select, textarea {
 
 div.row strong {
   text-align: center !important;
+}
+@media screen and (min-width: 841px) {
+.image.featured.aboutme1 img {
+    margin-top: 60px;
+  }
+  .image.featured.aboutme2 img {
+      margin-top: 10px;
+    }
 }
