@@ -3402,7 +3402,7 @@ input, select, textarea {
       }
 
 		@media screen and (max-width: 500px) {
-.image.featured img {
+.image.featured.aboutme img {
     height: 325px;
     width: auto;
     align-items: center;
