@@ -2184,7 +2184,7 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		background-color: rgba(103, 94, 168, 0.75);
-		border: solid 1px;
+		border: solid 3px;
     color: #fff;
 		cursor: pointer;
 		display: inline-block;
@@ -2396,8 +2396,8 @@ input, select, textarea {
 					}
 
 					#header nav ul li a {
-						border: solid 1px transparent;
-						color: inherit;
+						border: solid 3px #000;
+						color: #000;
 						display: inline-block;
 						line-height: 1em;
 						padding: 0.6em 0.75em;
