@@ -2260,7 +2260,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style2 {
-			background-color: #83d3c9;
+			background-color: rgba(31, 11, 58, 1.7);
 			background-image: url("images/light-bl.svg"), url("images/light-br.svg");
 			background-position: bottom left, bottom right;
 			background-repeat: no-repeat, no-repeat;
@@ -2396,7 +2396,7 @@ input, select, textarea {
 					}
 
 					#header nav ul li a {
-						border: solid 3px #000;
+						border: solid 3px #fff;
 						color: #000;
 						display: inline-block;
 						line-height: 1em;
@@ -3061,12 +3061,13 @@ input, select, textarea {
 
 					#navButton .toggle:before {
 						color: #fff;
-						content: '\f0c9';
+						content: "More";
 						font-size: 1em;
+            font-family: 'Lato';
 						height: 40px;
 						left: 10px;
 						line-height: 40px;
-						opacity: 0.5;
+						opacity: 1;
 						position: absolute;
 						top: 11px;
 						width: 60px;
@@ -3399,3 +3400,19 @@ input, select, textarea {
           background: #3E3966 !important;
           font-size: 16px !important;
       }
+
+		@media screen and (max-width: 500px) {
+.image.featured img {
+    height: 325px;
+    width: auto;
+    align-items: center;
+    margin: 0 auto;
+}
+#banner .inner p {
+    margin-bottom: 60px !important;
+  }
+}
+
+div.row strong {
+  text-align: center !important;
+}
