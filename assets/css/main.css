@@ -2204,7 +2204,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background: rgba(188, 202, 206, 0.15);
+			background: rgba(103, 94, 168, 0.75);
 			border-color: inherit;
 		}
 
@@ -2439,6 +2439,9 @@ input, select, textarea {
 
 					#header nav ul li.current > a {
 						font-weight: 900;
+            padding: 10px;
+    border-radius: 3px;
+    font-size: 18px;
 					}
 
 		#header.reveal {
@@ -2516,8 +2519,9 @@ input, select, textarea {
 			}
 
 			.dropotron > li:hover > a {
-				background: #83d3c9;
-				color: #fff;
+				background: rgba(103, 94, 168, 0.75);
+				color: #000;
+        font-weight: 600;
 			}
 
 			.dropotron > li:first-child {
@@ -3429,4 +3433,10 @@ div.row strong {
   .image.featured.aboutme2 img {
       margin-top: 10px;
     }
+}
+
+li.current a {
+  padding: 10px !important;
+    border-radius: 3px !important;
+    font-size: 18px !important;
 }
