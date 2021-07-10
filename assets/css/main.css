@@ -6,6 +6,26 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+div#main {
+    margin: 0 auto;
+    text-align: center;
+}
+
+section.wrapper.style3.container.special {
+    padding-bottom: 10px;
+}
+
+.pihimg {
+	width: 400px;
+	border-radius: 8px;
+}
+img.projects {
+	border-radius: 8px;
+	max-width: 400px;
+    height: 211px;
+}
+
+
 #BW {
   align-content: center;
   text-align: center;
@@ -148,9 +168,8 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-		color: rgba(103, 94, 168, 0.75);
+		color: #080899;
 		text-decoration: none;
-		border-bottom: dotted 1px;
 	}
 
 		a:hover {
@@ -165,7 +184,53 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1 {
+		color: inherit;
+		text-align: left;
+		font-size: 3.5rem;
+		font-weight: 300;
+		line-height: 1.75em;
+		margin: 1em 1em .5em 1em;
+	}
+
+	@media screen and (max-width: 1280px) {
+	h1 {
+		font-size: 2.5rem;
+		margin: 1.5em 1em .5em 1em;
+
+	}
+	}
+
+	@media screen and (max-width: 895px) {
+		h1 {
+			font-size: 2rem;
+			margin: 1.5em 1em .5em 1em;
+	
+		}
+		}
+		@media screen and (max-width: 640px) {
+			h1 {
+				font-size: 1.5rem;
+				margin: 2em 1em .5em 1em;
+		
+			}
+			}
+
+			@media screen and (max-width: 500px) {
+				h1 {
+					font-size: 2rem;
+					margin: 2em 0em 1em;
+					text
+			
+				}
+				p.intro {
+					font-size: 16px;
+				}
+				.container.intro {
+					margin-top: 63px !important;
+				}
+			}
+	h2, h3, h4, h5, h6 {
 		color: inherit;
 		font-weight: 300;
 		line-height: 1.75em;
@@ -213,12 +278,26 @@ input, select, textarea {
 		padding: 1em 0 1em 2em;
 	}
 
+	p.intro {
+		text-align: left;
+    margin: 0 3.5em 1em;
+	}
+
 /* Container */
 
+.container.intro {
+	margin-top: 100px;
+}
+
+.intro_container {
+	margin: 0 auto !important;
+    align-content: center;
+    padding: 0 15%;
+}
 	.container {
 		margin: 0 auto;
 		max-width: 100%;
-		width: 1400px;
+		width: 1200px;
 	}
 
 		.container.medium {
@@ -259,6 +338,7 @@ input, select, textarea {
 					width: 71.25%;
 				}
 
+		
 		}
 
 		@media screen and (max-width: 840px) {
@@ -2103,7 +2183,11 @@ input, select, textarea {
 			}
 
 /* Buttons */
-
+a.button.learnmore {
+    box-shadow: 0px 8px 15px rgb(0 0 0 / 25%);
+    margin-top: 10px;
+    font-size: 16px !important;
+}
 	ul.buttons {
 		cursor: default;
 		list-style: none;
@@ -2183,9 +2267,8 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-		background-color: rgba(103, 94, 168, 0.75);
-		border: solid 3px;
-    color: #fff;
+		background-color: #78D1F5;
+    	color: #000;
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.8em;
@@ -2204,7 +2287,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background: rgba(103, 94, 168, 0.75);
+			background: #64AFCC;
 			border-color: inherit;
 		}
 
@@ -2213,10 +2296,10 @@ input, select, textarea {
 		input[type="reset"].primary,
 		button.primary,
 		.button.primary {
-			background: rgba(103, 94, 168, 0.75);
-			border-color: white;
+			background: #78D1F5;
+			border-color: #000;
       border-radius: 3px;
-			color: #fff !important;
+			color: #000 !important;
 		}
     a.button.primary {
         font-size: 18px !important;
@@ -2226,8 +2309,8 @@ input, select, textarea {
 			input[type="reset"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background: #1E024F !important;
-				border-color: #fff !important;
+				background: #64AFCC !important;
+				border-color: #000 !important;
 			}
 
 		input[type="button"].fit,
@@ -2251,7 +2334,7 @@ input, select, textarea {
 /* Wrapper */
 
 	.wrapper {
-		margin-bottom: 5em;
+		margin-bottom: 0em;
 		padding: 5em;
 	}
 
@@ -2349,7 +2432,7 @@ input, select, textarea {
 	}
 
 	#header {
-		background: lightgray;
+		background: #3e3e3e;
 		color: inherit;
 		cursor: default;
 		font-size: 0.8em;
@@ -2361,15 +2444,7 @@ input, select, textarea {
 		width: 100%;
 		z-index: 10000;
 	}
-
-		#header h1 {
-			font-weight: 900;
-			margin: 0;
-		}
-
-			#header h1 span {
-				font-weight: 300;
-			}
+		
 
 		#header nav {
 			letter-spacing: 0.075em;
@@ -2396,8 +2471,7 @@ input, select, textarea {
 					}
 
 					#header nav ul li a {
-						border: solid 3px #fff;
-						color: #000;
+						color: #fff;
 						display: inline-block;
 						line-height: 1em;
 						padding: 0.6em 0.75em;
@@ -2469,21 +2543,22 @@ input, select, textarea {
 			}
 
 				#header.alt nav ul li.active > a, #header.alt nav ul li:hover > a {
-					border: solid 1px;
+					border: none;
 				}
 
 /* Dropotron */
 
 	.dropotron {
+		box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
 		list-style: none;
 		padding-left: 0;
 		background: #fff;
-		box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.075);
 		line-height: 2.25em;
-		min-width: 13em;
+		min-width: 14em;
 		padding: 1em 0;
 		text-transform: uppercase;
 		margin-top: calc(-1em + 1px);
+		z-index: 1;
 	}
 
 		.dropotron.level-0 {
@@ -2513,14 +2588,16 @@ input, select, textarea {
 				-ms-transition: none;
 				transition: none;
 				color: inherit;
+				font-size:16px;
 				text-decoration: none;
 				padding: 0 1em;
 				border: 0;
 			}
 
 			.dropotron > li:hover > a {
-				background: rgba(103, 94, 168, 0.75);
+				background: #B9F0FF;
 				color: #000;
+				font-size:16px;
         font-weight: 600;
 			}
 
@@ -2572,14 +2649,13 @@ input, select, textarea {
 
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
-		background-color: #645862;
-		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/computer.jpg");
+		background-color: #fff;
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
-		color: #fff;
+		color: #000;
 		cursor: default;
-		padding: 6em 0;
+		padding: 2em 0;
 		text-align: center;
 	}
 
@@ -2592,12 +2668,12 @@ input, select, textarea {
 			-webkit-animation-fill-mode: forwards;
 			-ms-animation-fill-mode: forwards;
 			animation-fill-mode: forwards;
-			background: rgba(25, 11, 79, 0.70);
-			color: #fff;
+			background: #fff;
+			color: #000;
 			display: inline-block;
 			opacity: 0;
-			padding: 2em;
-      border-radius: 5px;
+			padding: 28px;
+      		border-radius: 5px;
 			text-align: center;
 		}
 
@@ -2664,7 +2740,7 @@ input, select, textarea {
 			}
 
 	body.index #main {
-		padding-top: 5em;
+		padding-top: 2em;
 	}
 
 /* CTA */
@@ -2764,7 +2840,7 @@ input, select, textarea {
 		/* Wrapper */
 
 			.wrapper {
-				margin-bottom: 4em;
+				margin-bottom: 0em;
 				padding: 4em 3em;
 			}
 
@@ -2959,11 +3035,6 @@ input, select, textarea {
 			}
 
 		/* Banner */
-
-			#banner {
-				margin: 0;
-			}
-
 		/* Wrapper */
 
 			.wrapper.special-alt {
@@ -2971,7 +3042,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style4 {
-				padding-bottom: 3em;
+				padding-bottom: 2em;
 			}
 
 		/* Main */
@@ -2991,7 +3062,7 @@ input, select, textarea {
 					}
 
 			body.index #main {
-				padding-top: 4.5em;
+				padding-top: 2em;
 			}
 
 		/* CTA */
@@ -3019,7 +3090,11 @@ input, select, textarea {
 				transition: transform 0.5s ease;
 				padding-bottom: 1px;
 			}
-
+			@media screen and (max-width: 840px) {
+			a.toggle {
+				background: #3e3e3e;
+			}
+		}
 			#navButton {
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
@@ -3064,29 +3139,29 @@ input, select, textarea {
 					}
 
 					#navButton .toggle:before {
-						color: #fff;
+						color: #000;
 						content: "More";
-						font-size: 1em;
-            font-family: 'Lato';
-						height: 40px;
+						font-size: 1.5em;
+            			font-family: 'Lato';
+						height: 44px;
 						left: 10px;
 						line-height: 40px;
 						opacity: 1;
 						position: absolute;
 						top: 11px;
-						width: 60px;
+						width: 88px;
 						z-index: 1;
 					}
 
 					#navButton .toggle:after {
-						background: rgba(163, 169, 170, 0.75);
+						background: rgba(121, 228, 247, 0.75);
 						border-radius: 2px;
 						content: '';
-						height: 40px;
+						height: 44px;
 						left: 10px;
 						position: absolute;
 						top: 10px;
-						width: 60px;
+						width: 88px;
 					}
 
 			#navPanel {
@@ -3288,7 +3363,7 @@ input, select, textarea {
 		/* Wrapper */
 
 			.wrapper {
-				margin-bottom: 2.5em;
+				margin-bottom: 0em;
 				padding: 2.25em 1.5em;
 			}
 
@@ -3314,7 +3389,7 @@ input, select, textarea {
 
 			#banner {
 				background-size: 10em, 10em, auto, cover;
-				padding: 6em 0;
+				padding: 2em 0;
 			}
 
 				#banner .inner {
@@ -3373,8 +3448,8 @@ input, select, textarea {
 		/* Nav */
 
 			#navButton .toggle:before {
-				top: 8px;
-				left: 8px;
+				top: 12px;
+				left: 18px;
 				width: 50px;
 				height: 34px;
 				line-height: 34px;
@@ -3383,8 +3458,8 @@ input, select, textarea {
 			#navButton .toggle:after {
 				top: 8px;
 				left: 8px;
-				width: 50px;
-				height: 34px;
+				width: 88px;
+				height: 44px;
 			}
 
       .inner {
