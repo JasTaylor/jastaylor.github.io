@@ -2298,6 +2298,7 @@ a.button.learnmore {
 			background: #78D1F5;
       border-radius: 3px;
 			color: #000 !important;
+			border: none;
 		}
     a.button.primary {
         font-size: 18px !important;
@@ -2307,7 +2308,8 @@ a.button.learnmore {
 			input[type="reset"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background: #64AFCC !important;
+				background: #3e7185 !important;
+				border: none;
 			}
 
 		input[type="button"].fit,
