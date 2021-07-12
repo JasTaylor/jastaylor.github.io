@@ -1,11 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,900");
 
-/*
-	Twenty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 div#main {
     margin: 0 auto;
     text-align: center;
@@ -21,6 +16,7 @@ section.wrapper.style3.container.special {
 }
 img.projects {
 	border-radius: 8px;
+	margin: 0 auto;
 	max-width: 400px;
     height: 211px;
 }
@@ -229,7 +225,10 @@ input, select, textarea {
 				.container.intro {
 					margin-top: 63px !important;
 				}
+				.pihimg {
+					max-width: 300px !important;
 			}
+		}
 	h2, h3, h4, h5, h6 {
 		color: inherit;
 		font-weight: 300;
@@ -2297,7 +2296,6 @@ a.button.learnmore {
 		button.primary,
 		.button.primary {
 			background: #78D1F5;
-			border-color: #000;
       border-radius: 3px;
 			color: #000 !important;
 		}
@@ -2310,7 +2308,6 @@ a.button.learnmore {
 			button.primary:hover,
 			.button.primary:hover {
 				background: #64AFCC !important;
-				border-color: #000 !important;
 			}
 
 		input[type="button"].fit,
@@ -2365,7 +2362,8 @@ a.button.learnmore {
 			.wrapper.style2 button.primary,
 			.wrapper.style2 .button.primary {
 				background: #fff;
-				border-color: #fff;
+				border: none;
+				border: none;
 				color: #83d3c9 !important;
 			}
 
@@ -2375,6 +2373,7 @@ a.button.learnmore {
 				.wrapper.style2 button.primary:hover,
 				.wrapper.style2 .button.primary:hover {
 					border-color: inherit !important;
+					border: none;
 					color: #fff !important;
 				}
 
@@ -3476,8 +3475,9 @@ a.button.learnmore {
       }
 
       a.button.learnmore {
-          background: #3E3966 !important;
+          background: #78D1F5 !important;
           font-size: 16px !important;
+		  margin: 0 auto;
       }
 
 		@media screen and (max-width: 840px) {
